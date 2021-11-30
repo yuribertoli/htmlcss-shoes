@@ -42,6 +42,7 @@ header .buttons a {
 /* Fine header */
 
 /* Inizio main */
+
     /* Inizio regole generali */
 main div div {
     width: 50%;
@@ -91,3 +92,4 @@ h2.yellow {
 h2.green {
     color: green;
 }
+/* Fine regole main */
