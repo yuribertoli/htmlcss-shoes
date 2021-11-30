@@ -27,7 +27,6 @@ header .buttons {
 }
 
 header .buttons a {
-    border: 1px solid black;
     display: inline-block;
     margin: 0 10px;
     text-align: center;
