@@ -118,15 +118,8 @@ h2.green {
     color: green;
 }
 
-#first-product:hover .sfondo {
+#first-product:hover .sfondo, #second-product:hover .sfondo, #third-product:hover .sfondo {
     display: block;
 }
 
-#second-product:hover .sfondo {
-    display: block;
-}
-
-#third-product:hover .sfondo {
-    display: block;
-}
 /* Fine regole main */
