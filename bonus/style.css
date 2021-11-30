@@ -62,7 +62,7 @@ main div div img {
     height: 100%;
     padding-bottom: 15vh;
     object-fit: contain;
-    z-index: 3;
+    z-index: 2;
 }
 
 main div div h2 {
@@ -86,16 +86,16 @@ main div div h2 {
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 4;
+    opacity: 0.1;
+    background-color: black;
+    border-radius: 35%;
+    display: none;
 }
 
-.sfondo:hover {
+main div div:hover {
     cursor: url(hand.png), pointer;
-    background-color: black;
-    opacity: 1;
-    border-radius: 35%;
-    z-index: 1;
 }
+
     /* Fine regole generali */
 
 .background.red {
@@ -116,5 +116,17 @@ h2.yellow {
 
 h2.green {
     color: green;
+}
+
+#first-product:hover .sfondo {
+    display: block;
+}
+
+#second-product:hover .sfondo {
+    display: block;
+}
+
+#third-product:hover .sfondo {
+    display: block;
 }
 /* Fine regole main */
