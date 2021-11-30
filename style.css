@@ -84,3 +84,11 @@ main div div h2 {
 .background.yellow {
     background-color: yellow;
 }
+
+h2.yellow {
+    color: yellow;
+}
+
+h2.green {
+    color: green;
+}
