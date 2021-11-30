@@ -61,6 +61,7 @@ main div div img {
     height: 100%;
     padding-bottom: 15vh;
     object-fit: contain;
+    cursor: url(hand.png), pointer;
 }
 
 main div div h2 {
